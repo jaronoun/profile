@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+    background-color: var(--color-medium-gray);
+    --color-dark-gray: #222831;
+    --color-medium-gray: #393E46;
+    --color-teal: #00ADB5;
+    --color-light-gray: #EEEEEE;
+}
+
+html,body,#root {height:100%;margin:unset;}
