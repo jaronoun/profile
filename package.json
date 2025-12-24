@@ -1,4 +1,9 @@
 {
+  "name": "profile",
+  "type": "module",
+  "scripts": {
+    "build": "vite build --outDir dist"
+  },
   "devDependencies": {
     "vite": "^7.0.6"
   },
