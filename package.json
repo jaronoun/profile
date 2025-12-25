@@ -2,12 +2,15 @@
   "name": "profile",
   "type": "module",
   "scripts": {
-    "build": "vite build --outDir dist"
+    "dev": "vite",
+    "build": "vite build --outDir dist",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^7.0.6"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.4.2",
     "@tailwindcss/vite": "^4.1.18",
     "@types/jest": "^30.0.0",
@@ -16,6 +19,7 @@
     "@types/react-dom": "^19.2.3",
     "@types/three": "^0.182.0",
     "@vitejs/plugin-react": "^5.1.2",
+    "leva": "^0.10.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "tailwindcss": "^4.1.18",
